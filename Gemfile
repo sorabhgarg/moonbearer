@@ -31,7 +31,7 @@ gem 'bootstrap-sass'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -50,6 +50,5 @@ group :production do
 # but requires higher quality pg db
 	gem 'pg'
 	gem 'rails_12factor'
-	gem 'unicorn'
 end
 
