@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
@@ -49,5 +49,6 @@ group :production do
 # Using postgre for production because heroku doesn't work with sqlite3 
 # but requires higher quality pg db
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
