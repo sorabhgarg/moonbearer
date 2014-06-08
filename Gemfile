@@ -33,6 +33,9 @@ gem 'bootstrap-sass'
 # Use unicorn as the app server
 gem 'unicorn'
 
+# Added since heroku crashed without thin gem
+gem 'thin'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
