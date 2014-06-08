@@ -42,6 +42,9 @@ gem 'thin'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# for managing users
+gem 'devise'
+
 group :development, :test do 
 # Use sqlite3 as the database for Active Record
 # default used by rails since it is very light weight

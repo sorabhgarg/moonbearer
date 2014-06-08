@@ -80,4 +80,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #Require by Heroku
+  #Set to actual production host for going live
+  config.action_mailer.default_url_options = { host: 'moonbearer.heroku.com' }
 end
